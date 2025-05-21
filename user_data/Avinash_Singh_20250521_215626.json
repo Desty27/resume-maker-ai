@@ -1,0 +1,27 @@
+{
+  "personal": {
+    "name": "Avinash Singh",
+    "father_name": "",
+    "dob": "2025-05-21",
+    "gender": "Male",
+    "state": "Odisha",
+    "district": "",
+    "village": "",
+    "whatsapp": "",
+    "email": ""
+  },
+  "education": {
+    "level": "10th Pass",
+    "school": "",
+    "board": "Odisha Board",
+    "year": 2023,
+    "stream": ""
+  },
+  "skills": [],
+  "experience": {
+    "type": "No experience",
+    "description": ""
+  },
+  "project": "",
+  "languages": []
+}

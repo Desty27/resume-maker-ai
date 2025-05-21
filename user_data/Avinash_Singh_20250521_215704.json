@@ -1,0 +1,27 @@
+{
+  "personal": {
+    "name": "Avinash Singh",
+    "father_name": "Vikas Singh",
+    "dob": "2015-05-27",
+    "gender": "Male",
+    "state": "Odisha",
+    "district": "khordha",
+    "village": "kuha",
+    "whatsapp": "7847008775",
+    "email": ""
+  },
+  "education": {
+    "level": "10th Pass",
+    "school": "",
+    "board": "Odisha Board",
+    "year": 2023,
+    "stream": ""
+  },
+  "skills": [],
+  "experience": {
+    "type": "No experience",
+    "description": ""
+  },
+  "project": "",
+  "languages": []
+}

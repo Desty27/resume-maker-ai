@@ -1,0 +1,36 @@
+{
+  "personal": {
+    "name": "Avinash Singh",
+    "email": "avi@gmail.com",
+    "phone": "+91 9090030990",
+    "address": "Bhubaneswar",
+    "linkedin": "https://www.linkedin.com/in/aveeeenash/",
+    "github": ""
+  },
+  "summary": "Innovative AI and software engineer with a strong track record of designing and deploying scalable, high-impact so\nlutions. Proficient in frameworks like FastAPI, PyTorch, Hugging Face Transformers, and LlamaIndex, with\n expertise in NLP, generative AI, data pipeline development, and reinforcement learning model deployment.\n Adept at integrating AI-driven applications into cloud-native environments using AWS, Docker, and PostgreSQL. Pas\nsionate about transforming complex challenges into real-world, cutting-edge solutions",
+  "education": {
+    "degree": "Bachelor of Technology",
+    "university": "IIIT Bhubaneswar",
+    "year": "2026"
+  },
+  "experience": {
+    "title": "AI Team Lead Intern",
+    "company": "Gesil",
+    "dates": "jan 2025-mar 2025",
+    "responsibilities": [
+      "Chatbot Development: Led the development of a chatbot for the Odisha Government\u2019s public grievance portal using\n NLP and Mistral 7B LLM",
+      "improving citizen engagement and reducing response time by 30%.\u2013 Grievance Automation: Automated the grievance ticketing system",
+      "streamlining workflows and reducing manual effort\n by 40%.\u2013 Data Optimization: Vectorized subscriber data from PostgreSQL with PG Vector",
+      "improving response accuracy by\n 25%"
+    ]
+  },
+  "skills": [
+    "Python",
+    "C/C++"
+  ],
+  "certifications": [],
+  "projects": {
+    "name": "",
+    "description": ""
+  }
+}

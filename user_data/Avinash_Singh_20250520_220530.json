@@ -1,0 +1,32 @@
+{
+  "personal": {
+    "name": "Avinash Singh",
+    "email": "avi@gmail.com",
+    "phone": "+91 9090030990",
+    "address": "bbsr",
+    "linkedin": "https://www.linkedin.com/in/aveeeenash/",
+    "github": ""
+  },
+  "summary": "ha ah",
+  "education": {
+    "degree": "bachelor",
+    "university": "iiit",
+    "year": "2026"
+  },
+  "experience": {
+    "title": "ai",
+    "company": "ftcs",
+    "dates": "jan 24-present",
+    "responsibilities": [
+      "web"
+    ]
+  },
+  "skills": [
+    "python"
+  ],
+  "certifications": [],
+  "projects": {
+    "name": "",
+    "description": ""
+  }
+}

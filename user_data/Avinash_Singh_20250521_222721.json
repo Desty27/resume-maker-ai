@@ -1,0 +1,34 @@
+{
+  "personal": {
+    "name": "Avinash Singh",
+    "father_name": "Vikas Singh",
+    "dob": "2015-05-21",
+    "gender": "Male",
+    "state": "Bihar",
+    "district": "khordha",
+    "village": "kuha",
+    "whatsapp": "9090030990",
+    "email": ""
+  },
+  "education": {
+    "level": "12th Pass",
+    "school": "Govt high school",
+    "board": "UP Board",
+    "year": 2023,
+    "stream": "Science"
+  },
+  "skills": [
+    "MS Office",
+    "English Speaking",
+    "Mathematics"
+  ],
+  "experience": {
+    "type": "Helped in family business",
+    "description": ""
+  },
+  "project": "solar water pump",
+  "languages": [
+    "Hindi",
+    "Sanskrit"
+  ]
+}

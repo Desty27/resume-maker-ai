@@ -1,0 +1,36 @@
+{
+  "personal": {
+    "name": "Avinash Singh",
+    "father_name": "Vikas Singh",
+    "dob": "2015-05-22",
+    "gender": "Male",
+    "state": "Odisha",
+    "district": "Khordha",
+    "village": "Kuha",
+    "whatsapp": "9090030990",
+    "email": ""
+  },
+  "education": {
+    "level": "12th Pass",
+    "school": "Govt high school",
+    "board": "Bihar Board",
+    "year": 2022,
+    "stream": "Science"
+  },
+  "skills": [
+    "Basic Computer Knowledge",
+    "MS Office",
+    "Farming Knowledge",
+    "English Speaking"
+  ],
+  "experience": {
+    "type": "Helped in family business",
+    "description": "helped my family with steel sheet production\n"
+  },
+  "project": "solar water pump",
+  "languages": [
+    "English",
+    "Hindi",
+    "Urdu"
+  ]
+}

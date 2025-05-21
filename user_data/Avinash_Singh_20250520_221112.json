@@ -1,0 +1,28 @@
+{
+  "personal": {
+    "name": "Avinash Singh",
+    "email": "avi@gmail.com",
+    "phone": "+91 9090030990",
+    "address": "Bhubaneswar",
+    "linkedin": "https://www.linkedin.com/in/aveeeenash/",
+    "github": ""
+  },
+  "summary": "Innovative AI and software engineer with a strong track record of designing and deploying scalable, high-impact so\nlutions. Proficient in frameworks like FastAPI, PyTorch, Hugging Face Transformers, and LlamaIndex, with\n expertise in NLP, generative AI, data pipeline development, and reinforcement learning model deployment.\n Adept at integrating AI-driven applications into cloud-native environments using AWS, Docker, and PostgreSQL. Pas\nsionate about transforming complex challenges into real-world, cutting-edge solutions",
+  "education": {
+    "degree": "Bachelor of Technology",
+    "university": "IIIT Bhubaneswar",
+    "year": ""
+  },
+  "experience": {
+    "title": "",
+    "company": "",
+    "dates": "",
+    "responsibilities": []
+  },
+  "skills": [],
+  "certifications": [],
+  "projects": {
+    "name": "",
+    "description": ""
+  }
+}

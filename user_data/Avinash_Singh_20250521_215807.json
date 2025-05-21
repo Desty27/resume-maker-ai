@@ -1,0 +1,31 @@
+{
+  "personal": {
+    "name": "Avinash Singh",
+    "father_name": "Vikas Singh",
+    "dob": "2015-05-27",
+    "gender": "Male",
+    "state": "Odisha",
+    "district": "khordha",
+    "village": "kuha",
+    "whatsapp": "7847008775",
+    "email": ""
+  },
+  "education": {
+    "level": "12th Pass",
+    "school": "gOVT high school",
+    "board": "Odisha Board",
+    "year": 2022,
+    "stream": "Science"
+  },
+  "skills": [
+    "Basic Computer Knowledge",
+    "Machine Operation",
+    "English Speaking"
+  ],
+  "experience": {
+    "type": "Helped in family business",
+    "description": ""
+  },
+  "project": "Built a solar water pump",
+  "languages": []
+}

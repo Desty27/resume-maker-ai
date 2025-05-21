@@ -1,0 +1,27 @@
+{
+  "personal": {
+    "name": "Avinash Singh",
+    "father_name": "Vikas Singh",
+    "dob": "2015-05-22",
+    "gender": "Male",
+    "state": "Odisha",
+    "district": "Khordha",
+    "village": "Kuha",
+    "whatsapp": "9090030990",
+    "email": ""
+  },
+  "education": {
+    "level": "12th Pass",
+    "school": "Govt high school",
+    "board": "UP Board",
+    "year": 2023,
+    "stream": "Science"
+  },
+  "skills": [],
+  "experience": {
+    "type": "No experience",
+    "description": ""
+  },
+  "project": "",
+  "languages": []
+}
