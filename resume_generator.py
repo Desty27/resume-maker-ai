@@ -1,44 +1,68 @@
+# resume_generator.py
 import openai
 
 def generate_resume_with_openai(user_data, api_key):
-    """Generate enhanced resume content using OpenAI API"""
+    """Generate resume content using OpenAI API with strict formatting"""
     openai.api_key = api_key
     
     prompt = f"""
-    Create a professional resume in HTML format for a rural Indian student using this data:
+    
+    Create a professional resume in HTML format strictly following this structure:
+    [Personal Details]
+    Name in bold
+    Address format:
+    Vill/Post: [village]
+    Near [landmark], [tehsil]
+    Distt.: [district]
+    Email: [email]
+    Contact No.: [phone]
+    
+    [Career Objective]
+    Single paragraph
+    
+    [Educational Qualification]
+    Table with columns: Qualification | Board/University | Year of Passing | Percentage
+    - 10th
+    - 12th (if available)
+    
+    [Technical Qualification]
+    Table with columns: Qualification | University | Year of Passing | Percentage
+    - Diploma (if available)
+    
+    [Project]
+    - [project details]
+    
+    [Training]
+    - [training details]
+    
+    User Data:
     {user_data}
-
-    Add these enhancements:
-    1. Infer and add relevant achievements from projects/experience
-    2. Suggest appropriate skill descriptions
-    3. Add missing but relevant sections (like Objectives if empty)
-    4. Include industry-appropriate terminology for their education stream
-    5. Add relevant coursework/projects based on their skills
-    6. Suggest measurable accomplishments where possible
-    7. Add professional summary if missing
-
-    Formatting requirements:
-    - Use clean HTML with inline CSS
-    - Highlight enhancements with 'AI-suggested' comments
-    - Maintain original user content
-    - Make sections for: Summary, Education, Skills, Experience, Projects, Certifications
-
-    Return ONLY the HTML code without any markdown.
+    
+    Enhancements Needed:
+    1. Expand brief project descriptions with technical specifications
+    2. Add relevant industry keywords to career objective
+    3. Format percentages consistently (XX.XX%)
+    4. Add missing contact information formatting
+    5. Include relevant technical skills in project/training
+    
+    Required Format:
+    - Use HTML tables with border="1" cellpadding="5"
+    - Maintain exact section order and headings
+    - Use <sup>th</sup> for qualification levels
+    - Bold section headings using <b> tags
+    - No CSS styling
+    
+    Return ONLY the HTML code without any additional text.
     """
     
     try:
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": """You are a career counselor helping rural students. 
-                Enhance resumes by:
-                - Adding relevant missing information
-                - Expanding brief descriptions
-                - Suggesting measurable achievements
-                - Using appropriate industry terms"""},
+                {"role": "system", "content": "You are a technical resume formatter that maintains exact structure while enhancing content"},
                 {"role": "user", "content": prompt}
             ],
-            temperature=0.7,
+            temperature=0.4,
             max_tokens=2000
         )
         return response.choices[0].message.content.strip()
